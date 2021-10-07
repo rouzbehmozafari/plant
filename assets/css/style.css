@@ -1,0 +1,140 @@
+/*=====================
+    General Styles
+======================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2{
+    font-family: 'Fredericka the Great', cursive;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+li:hover , span:hover , a:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*=====================
+    Header Styles
+======================*/
+
+header{
+  background-image: url("../img/plantBg.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+header h1{
+    padding: 10px 0px 0px 80px;
+}
+
+header div{
+  width: 280px;
+  text-align: center;
+  margin: 20vh auto;
+}
+
+header div h2{
+  margin-bottom: 20px;
+}
+
+header div p{
+  margin-bottom: 20px;
+}
+
+header div a{
+  border: 2px solid white;
+  padding: 10px 20px;
+}
+
+header div a:hover{
+  color:black;
+  background: white;
+}
+
+header nav{
+    text-align: right;
+    padding: 0px 80px 50px 0px;
+}
+
+header nav ul li{
+  margin-bottom: 10px;
+}
+
+/*=====================
+    Main Styles
+======================*/
+
+main section{
+  width: 400px;
+  text-align: center;
+  margin: 70px auto;
+}
+
+main section h2{
+  margin-bottom: 30px;
+}
+
+main section div{
+  border: 5px double grey;
+  width: 150px;
+  margin:50px auto;
+  padding: 20px 0px;
+}
+
+main section div p{
+  margin-bottom: 8px;
+}
+
+main section div a{
+  color: black;
+}
+
+/*=====================
+    Footer Styles
+======================*/
+
+footer{
+  background: #3A3B4A;
+  color: white;
+}
+
+footer section{
+  width: 500px;
+  padding: 15px 0px 0px 30px;
+}
+
+footer section p{
+  margin-bottom: 20px;
+}
+
+footer section a{
+  border: 1px solid white;
+  padding: 5px 10px;
+}
+
+footer section a:hover{
+  color: black;
+  background: white;
+}
+
+footer nav{
+  text-align: right;
+  padding: 20px 10px 20px 0px;
+}
+
+footer nav span{
+  padding-left: 10px;
+}
